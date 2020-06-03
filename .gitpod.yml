@@ -1,0 +1,6 @@
+tasks:
+  - command: cd backend/ && yarn dev
+  - command: cd frontend && yarn start
+vscode:
+  extensions:
+    - alexcvzz.vscode-sqlite@0.8.2:CKh7wsjIsH5zuv3a7N3bag==
