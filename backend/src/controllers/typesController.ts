@@ -10,7 +10,7 @@ class TypesController {
             return {
                 id:item.id,
                 title: item.title,
-                img_url : `https://${url_base}/uploads/${item.image}`
+                img_url : `${req.protocol}://${url_base}${url_base=="localhost"?":3333":""}/uploads/${item.image}`
             }
         })
         return res.json(serializedTypes)
