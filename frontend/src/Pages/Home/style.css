@@ -3,6 +3,7 @@
   height: 100vh;
 
   background: url('../../assets/home-background.svg') no-repeat 600px bottom;
+  background-position-y: 100px;
 }
 
 #page-home .content {

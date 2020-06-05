@@ -28,10 +28,11 @@
 }
 
 #page-create-base form {
+  animation: load 1s ease;
   margin: 80px auto;
   padding: 64px;
   max-width: 730px;
-  background: rgba(255, 255, 255,0.9);
+  background: rgba(29, 34, 75, 0.562);
   border-radius: 8px;
 
   display: flex;
@@ -63,7 +64,7 @@
 #page-create-base form legend span {
   font-size: 14px;
   font-weight: normal;
-  color: var(--text-color);
+  color: #34CB79;
 }
 
 #page-create-base form .field-group {
@@ -212,4 +213,13 @@
 .items-grid li.selected {
   background: #E1FAEC;
   border: 2px solid #34CB79;
+}
+
+@keyframes load{
+  from{
+    transform: translateY(100%);
+  }
+  to{
+    transform: translateY(0);
+  }
 }
