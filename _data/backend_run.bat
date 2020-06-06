@@ -1,0 +1,1 @@
+cd backend && npm install && yarn knex && yarn seed && yarn dev

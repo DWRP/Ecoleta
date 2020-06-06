@@ -1,0 +1,3 @@
+-- SQLite
+DELETE FROM `types` where id > 6;
+UPDATE SQLITE_SEQUENCE SET SEQ=6 WHERE NAME=`types`;
