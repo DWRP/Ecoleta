@@ -18,8 +18,10 @@ A Project of Next Level Week of Rocketseat.
     If your operation system is Windows, use setup.bat this project.
     Check project requeriments to runnig this.
 
-    *-* INSTALATION AND RUNING *-*
-        if you use other operation system, do:
+### INSTALATION AND RUNING
+
+    if you use other operation system, do:
+    
         in terminal:
             cd backend
             npm install
@@ -32,11 +34,12 @@ A Project of Next Level Week of Rocketseat.
             npm install
             yarn start
 
-    *-* AFTER INSTALATION RUNING *-*
-        in terminal:
-            cd backend
-            yarn dev
+### AFTER INSTALATION TO RUNING
 
-        open new terminal and:
-            cd frontend
-            yarn start
+    in terminal:
+        cd backend
+        yarn dev
+
+    open new terminal and:
+        cd frontend
+        yarn start
