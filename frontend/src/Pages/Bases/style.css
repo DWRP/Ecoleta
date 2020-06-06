@@ -215,6 +215,33 @@
   border: 2px solid #34CB79;
 }
 
+@media(max-width: 900px) {
+  #page-create-base form{ margin-top:30px;}
+  .field-group {
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+  }
+  #page-create-base form .field-group .field + .field {
+    margin-left: 0px;
+  }
+  #page-create-base form fieldset .field .select-options{
+    background: url(../../assets/down-arrow.svg) no-repeat #eee !important;
+    background-position: right !important;
+    background-size: 20px !important;
+    background-position-x: 52vw !important;
+  }
+  .items-grid{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .items-grid li{
+    margin: 10px 0;
+  }
+  #page-create-base form button {align-self: center;}
+}
+
 @keyframes load{
   from{
     transform: translateY(100%);

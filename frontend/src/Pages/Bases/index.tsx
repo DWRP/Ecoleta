@@ -107,7 +107,7 @@ function Bases() {
 
         await axios.post('http://localhost:3333/bases',data)
         alert('Base criada! ')
-        history.push('/')
+        history.push('/end')
     }
   return (
         <div id="page-create-base">    

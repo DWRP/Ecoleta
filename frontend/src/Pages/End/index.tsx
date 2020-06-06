@@ -6,21 +6,24 @@ import Header from '../../Components/Header'
 import './style.css'
 import logo from '../../assets/logo.svg'
 
-import { FiLogIn } from 'react-icons/fi'
+import { FiLogOut } from 'react-icons/fi'
 
-function Home() {
+function End() {
   return (
-        <div id="page-home">
+        <div id="page-home_end">
             <div className="content">       
                 <Header img_src={logo} img_alt="Ecoleta"/>
                 <main>
-                    <h1>Seu Marketplace de coleta de Resíduos</h1>
-                    <p>Ajudamos pessoas a encontrarem bases de coleta</p>
-                    <Link to="/bases">
+                    <h1>Base cadastrada</h1>
+                    <p>
+                        Obrigado por usar nosso serviço.<br />
+                        Tudo ocorreu com sucesso!!
+                    </p>
+                    <Link to="/">
+                        <strong>Voltar ao início</strong>
                         <span>
-                            <FiLogIn />
+                            <FiLogOut />
                         </span>
-                        <strong>Cadastre uma base de coleta</strong>
                     </Link>
                 </main>
             </div>
@@ -28,4 +31,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default End;
